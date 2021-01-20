@@ -16,11 +16,6 @@ def test_html():
         assert True
 
 
-# def test_position_type_json():
-#     r = pisition_json_api()
-#     if r['state'] == 1:
-#         assert True
-
 def test_position_json():
     r = position_api()
     if r['state'] == 1:
